@@ -4,4 +4,72 @@ img {
     max-width: 200px;
 }
 
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #917C78;
+}
+
+.body{
+    background-color: #DECCCC;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*card structure*/
+.card{
+    margin: 10px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 10px 30px -10px #545E56;
+}
+
+/*skins*/
+.card--dark{
+    background-color: #B79492;
+
+}
+
+.card--light{
+    background-color: #EAE1DF;
+}
+
+/*card_heading element*/
+
+.card__heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/*card_heading modifiers*/
+.card__heading--dark{
+    color: #EAE1DF;
+
+}
+
+.card__heading--light{
+    color: #B79492;
+}
+
+/*card_content element*/
+.card__content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*card_content modifiers*/
+.card__content--dark{
+    color: #EAE1DF;
+}
+
+.card__content--light{
+    color: #B79492;
+}
+
 /* Happy coding! */
